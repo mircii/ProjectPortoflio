@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from './components/Header.tsx';
 import About from './pages/About.tsx';
 import Projects from './pages/Projects.tsx';
+import Contact from './pages/Contact.tsx';
 
 type Page = 'projects' | 'about' | 'contact';
 
@@ -28,6 +29,7 @@ const App: React.FC = () => {
       <main className="p-4 max-w-5xl mx-auto">
         {page === 'about' && <About />}
         {page === 'projects' && <Projects />}
+        {page === 'contact' && <Contact />}
       </main>
     </div>
   );

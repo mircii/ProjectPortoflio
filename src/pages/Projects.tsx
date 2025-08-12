@@ -5,12 +5,14 @@ const projects = [
   {
     title: 'Car Expense Tracker',
     description: 'A web application to track car expenses, including fuel, maintenance, and insurance costs.',
-    link: 'https://github.com/mircii/my-car-wallet',
+    github: 'https://github.com/mircii/my-car-wallet',
+    live: 'https://my-car-wallet.vercel.app/'
   },
   {
     title: 'AI Chatbot for the CCOC Website',
     description: 'An AI-powered chatbot integrated into the CCOC website to assist users with common queries and provide information.',
-    link: 'https://github.com/mircii/milo-frontend-testing',
+    github: 'https://github.com/mircii/milo-frontend-testing',
+    live: 'https://milo-frontend-testing.vercel.app/'
   },
 ];
 
