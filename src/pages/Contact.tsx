@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Button } from '../components/Button';
 
 const Contact: React.FC = () => {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
@@ -67,12 +68,11 @@ const Contact: React.FC = () => {
                 className="w-full p-2 border rounded dark:bg-gray-800 dark:border-gray-600"
               />
             </div>
-            <button
+            <Button
               type="submit"
-              className="w-full px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-            >
+              className="w-full bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-200">
               Send
-            </button>
+            </Button>
           </form>
         )}
       </div>

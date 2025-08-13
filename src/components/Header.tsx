@@ -70,7 +70,6 @@ const Header: React.FC<HeaderProps> = ({
         </button>
       </div>
 
-      {/* Mobile menu dropdown */}
       {menuOpen && (
         <div className="absolute top-[64px] right-0 w-full bg-white dark:bg-gray-900 border-t border-gray-300 dark:border-gray-700 md:hidden">
           <div className="flex flex-col items-center space-y-4 py-4">
